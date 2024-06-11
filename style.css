@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #ece8ef;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 60vmain;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 8vmin;
+    color: #E7F0FF;
+    background-color: #DC493A;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #4392F1;
+    color: #fff;
+    border-radius: 1rem;
+    border-radius: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #4392F1;
+    color: #fff;
+    border-radius: 1rem;
+    border-radius: none;
+}
+
+#msg {
+    color: #DC493A;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
+
+main h1{
+    padding-top: 3rem;
+    color: #4392F1;
+}
+
+footer p{
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #DC493A
+}
